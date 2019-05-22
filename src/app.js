@@ -27,7 +27,7 @@ var app3 = new Vue({
     }
 });
 
-var app3 = new Vue({
+var app4 = new Vue({
     el:"#app-4",
     data:{
         todos: [
@@ -36,5 +36,18 @@ var app3 = new Vue({
             {title:"todo3"},
             {title:"todo4"}
         ]
+    }
+});
+
+
+var app5 = new Vue({
+    el:'#app-5',
+    data: {
+        message: 'Salutare !!!'
+    },
+    methods: {
+        reverseMessage: function(){
+            this.message = this.message.split('').reverse().join('');
+        }
     }
 });
