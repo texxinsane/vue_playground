@@ -9,8 +9,6 @@
       </ul>
       <p v-if="courses.length > 1"> We have more than 1 course</p>
       <p v-else>We have one course</p>
-          
-      </p>
     </div>
   </div>
 </template>
