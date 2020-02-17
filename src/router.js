@@ -3,6 +3,7 @@
 import Vue from 'vue';
 import Skills from './components/Skills.vue';
 import About from './components/About.vue';
+import Contact from './components/Contact.vue';
 import VueRouter from 'vue-router';
 
 Vue.use(VueRouter);
@@ -18,6 +19,12 @@ export default new VueRouter({
       path: '/about',
       name: 'about',
       component: About
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: Contact
     }
+
   ]
 });

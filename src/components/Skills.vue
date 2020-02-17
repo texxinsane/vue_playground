@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 
 <template>
-  <div class="container">
+  <div class="container mx-auto">
     <h1>{{ name }}</h1>
     <!-- <button v-on:click="changeName" v-bind:disabled="btnState">Change Name</button> -->
     <p>My skills</p>
@@ -70,6 +70,7 @@ export default {
   },
   methods: {
     addSkill() {
+      console.log(this.$validator);
       this.$validator.validateAll().then((result) => {
           if(result){
               this.skills.push({skill: this.skill});
