@@ -16,7 +16,7 @@ export default new VueRouter({
       component: Skills
     },
     {
-      path: '/about',
+      path: '/about/:name',
       name: 'about',
       component: About
     },

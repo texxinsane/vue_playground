@@ -1,6 +1,6 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css";
 @import "../assets/tailwind.css";
-
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css";
 ul {
     list-style-type: none;
 }
@@ -51,4 +51,9 @@ input {
     100% {
         transform: scale(1);
     }
+}
+
+i {
+    float:right;
+    cursor: pointer;
 }
