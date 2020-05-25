@@ -5,7 +5,7 @@ import Skills from './components/Skills.vue';
 import About from './components/About.vue';
 import Contact from './components/Contact.vue';
 import VueRouter from 'vue-router';
-import Home from './views/Home.vue'
+import Home from './views/Home.vue';
 
 Vue.use(VueRouter);
 

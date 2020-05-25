@@ -1,7 +1,10 @@
 /*jshint esversion: 6 */
 
 <template>
-  <div id="app" class="container mx-auto">
+  <div
+    id="app"
+    class="container mx-auto"
+  >
     <Navigation />
     <router-view />
   </div>
